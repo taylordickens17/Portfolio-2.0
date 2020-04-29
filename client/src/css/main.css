@@ -1,0 +1,11 @@
+@import 'about.css';
+@import 'contact.css';
+@import 'navbar.css';
+@import 'parallax.css';
+@import 'portfolio.css';
+@import 'skills.css';
+
+.app {
+  margin: 0;
+  overflow: hidden;
+}
