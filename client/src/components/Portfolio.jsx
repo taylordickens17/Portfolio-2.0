@@ -6,7 +6,7 @@ import {
 
 const Portfolio = () => {
     return (
-        <Container>
+        <Container id="projects" className="projects">
             <h1>Projects</h1>
             <Row>
                 <Col md="4">

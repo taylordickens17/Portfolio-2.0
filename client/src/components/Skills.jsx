@@ -5,8 +5,8 @@ import {
 
 const Skills = () => {
     return (
-        <Container>
-            <h1>Skills hello</h1>
+        <Container id="skills" className="skills">
+            <h1>Skills</h1>
             <Row>
                 <Col>
                     <hr style={{ width: '80%' }} />

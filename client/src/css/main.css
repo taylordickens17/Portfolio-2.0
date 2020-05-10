@@ -1,9 +1,18 @@
 @import 'about.css';
 @import 'contact.css';
 @import 'navbar.css';
-@import 'parallax.css';
+@import 'home.css';
 @import 'portfolio.css';
 @import 'skills.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Josefin+Sans&display=swap');
+
+
+body, html {
+  background: #05083A!important;
+  color: white !important;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
 
 .app {
   margin: 0;

@@ -1,11 +1,11 @@
 import React from 'react';
 import {
-    Container, Button, FormGroup, Form, Input, Col
+    Container, Button, FormGroup, Form, Input
 } from 'reactstrap';
 
 const Contact = () => {
     return (
-        <Container>
+        <Container id="contact" className="contact">
             <h1>Contact</h1>
             <Form action="https://formspree.io/mbjalklw" method="POST">
                 <FormGroup>

@@ -5,16 +5,13 @@ import {
 
 const Home = () => {
     return (
-        <Container>
-            <h1>Taylor Dickens</h1>
+        <Container id="home" className="home">
             <Row>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
+                <Col>
+                    <h1 className="home-title">Taylor Dickens</h1>
+                    <h1 className="home-subtitle">Web Developer</h1>
+                    <img alt="jellyfish" className="home-photo" height="600" width="900" src={require('../css/assets/jelly2.jpeg')} />
+                </Col>
             </Row>
         </Container>
     );

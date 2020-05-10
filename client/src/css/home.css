@@ -1,0 +1,29 @@
+.home {
+    height: 100vh;
+    background: radial-gradient(66.36% 49.93% at 50.05% 100%, #6A64B4 0%, #080D61 32.81%, #05083A 60.94%);
+}
+
+.home-photo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.home-title {
+    position: absolute;
+    font-weight: 800;
+    font-size: 100px;
+    margin-left: 20;
+    left: 15rem;
+    bottom: 34rem;
+    z-index: 1;
+}
+
+.home-subtitle {
+    position: absolute;
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    z-index: 1;
+}
