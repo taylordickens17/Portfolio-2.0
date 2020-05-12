@@ -1,6 +1,6 @@
 import React from 'react';
 //Navigation and Landing Page
-import Sitebar from './components/Sitebar';
+// import Sitebar from './components/Sitebar';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -13,10 +13,10 @@ import './css/main.css';
 function App() {
   return (
     <div className="app">
-      <Sitebar />
+      {/* <Sitebar /> */}
       <Home />
-      <About />
       <Portfolio />
+      <About />
       <Skills />
       <Contact />
     </div>

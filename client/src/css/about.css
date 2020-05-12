@@ -1,8 +1,19 @@
 .about {
     height: 100vh;
-    background-color: #05083A;
+}
+
+.about-title {
+    font-family: 'NTR', sans-serif;
+    text-transform: uppercase;
 }
 
 .about-text {
-    font-family: 'Josephin Sans', sans-serif;
+    padding: 2em 2em 2em 0;
+    border-right: 2px solid white;
+}
+
+.about-pic {
+    height: 450px;
+    width: 300px;
+    margin-left: 2em;
 }

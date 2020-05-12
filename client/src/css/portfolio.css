@@ -1,4 +1,7 @@
 .projects {
     height: 100vh;
-    background: radial-gradient(66.36% 49.93% at 50.05% 100%, #6A64B4 0%, #080D61 32.81%, #05083A 60.94%);
+    margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+    background-color: #0C0E29;
 }
