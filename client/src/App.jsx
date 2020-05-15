@@ -7,6 +7,8 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
+import { BrowserRouter } from 'react-router-dom';
+
 //CSS
 import './css/main.css';
 
@@ -14,7 +16,9 @@ function App() {
   return (
     <div className="app">
       {/* <Sitebar /> */}
-      <Home />
+      <BrowserRouter>
+        <Home />
+      </BrowserRouter>
       <Portfolio />
       <About />
       <Skills />

@@ -1,6 +1,8 @@
 .sitebar {
     font-family: 'NTR', sans-serif;
     text-transform: uppercase;
+    display: inline-block;
+    align-items: center;
 }
 
 .sitebar ul li {

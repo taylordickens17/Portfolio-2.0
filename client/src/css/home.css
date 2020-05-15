@@ -32,6 +32,13 @@
     border-bottom: 2px solid white;
 }
 
+.greeting {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    padding: 5em;
+}
+
 .greeter {
     font-family: 'NTR', sans-serif;
 }
@@ -43,12 +50,13 @@
 }
 
 .greeter-bttn:hover {
-    color: white;
+    color: #A7BDDD;
     text-decoration: none;
 }
 
 .home-linkedIn-bttn {
     color: white;
+    margin-right: 10px;
 }
 
 .home-linkedIn-bttn:hover {
