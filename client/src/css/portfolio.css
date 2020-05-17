@@ -1,15 +1,13 @@
 .projects {
     height: 100vh;
     margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
     background-color: #0C0E29;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .projects-row {
   margin-left: auto;
   margin-right: auto;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
 }

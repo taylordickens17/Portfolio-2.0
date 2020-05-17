@@ -65,8 +65,17 @@
 
 .home-gitHub-bttn {
     color: white;
+    margin-right: 10px;
 }
 
 .home-gitHub-bttn:hover {
+    color: white;
+}
+
+.home-email-bttn {
+    color: white;
+}
+
+.home-email-bttn:hover {
     color: white;
 }

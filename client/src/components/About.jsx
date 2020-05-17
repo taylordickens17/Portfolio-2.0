@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'
 import { Container, Row, Col } from 'reactstrap';
+
+// Animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
 
@@ -13,8 +15,8 @@ const About = () => {
 
     return (
         <Container data-aos="fade-up" id="about" className="about">
-            <Row>
-                <Col md="6">
+            <Row className="about-section">
+                <Col md="7">
                     <h1 className="about-title">Introduction</h1>
                     <p className="about-text">I graduated from the Herron School of Art and Design with a BFA in Printmaking. While at
                                     Herron, I took a few classes in visual communication, which started my passion for design.
@@ -26,7 +28,7 @@ const About = () => {
                     <a href={require("../css/assets/Resume2020.pdf")} download><button
                         class="resumeBttn">Resume</button></a>
                 </Col>
-                <Col md="6">
+                <Col md="5">
                     <img src={require("../css/assets/TaylorDickens1.jpg")} alt="Taylor Dickens" className="about-pic" />
                 </Col>
             </Row>

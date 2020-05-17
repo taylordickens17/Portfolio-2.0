@@ -1,5 +1,8 @@
 .about {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-title {
@@ -13,7 +16,7 @@
 }
 
 .about-pic {
+    margin-left: 5em;
     height: 450px;
     width: 300px;
-    margin-left: 2em;
 }
