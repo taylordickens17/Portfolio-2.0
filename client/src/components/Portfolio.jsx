@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     Card, Container, Button, CardHeader, CardBody,
     CardTitle, CardText, Row, Col
 } from 'reactstrap';
 
+// Animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Portfolio = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000
+        })
+    })
+
     return (
         <div className="projects">
-            <Container id="projects">
+            <Container data-aos="fade-up" id="projects">
                 <h1>Projects</h1>
                 <Row className="projects-row">
                     <Col md="4" className="projects-col">
