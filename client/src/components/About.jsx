@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import { Container, Row, Col } from 'reactstrap';
 
 const About = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000
+        })
+    })
+
     return (
-        <Container id="about" className="about">
+        <Container data-aos="fade-up" id="about" className="about">
             <Row>
                 <Col md="6">
                     <h1 className="about-title">Introduction</h1>
