@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Button, Row, Col } from 'reactstrap';
+import { Card, Container, Button, Row, Col } from 'reactstrap';
 
 //Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,16 +24,22 @@ const Portfolio = () => {
                 <h1 className="projects-title">Projects</h1>
                 <Row className="project-row">
                     <Col md="4" className="projects-col">
-                        <FontAwesomeIcon className="project-icon" size="4x" icon={faDog} />
-                        <Link to="/petpals"><Button className="portfolio-bttn">See More</Button></Link>
+                        <Card className="project-card">
+                            <FontAwesomeIcon className="project-icon-pet" size="4x" icon={faDog} />
+                            <Link to="/petpals"><Button className="portfolio-bttn">PetPals</Button></Link>
+                        </Card>
                     </Col>
                     <Col md="4" className="projects-col">
-                        <FontAwesomeIcon className="project-icon" size="4x" icon={faUserAstronaut} />
-                        <Link to="/spacevisualizer"><Button className="portfolio-bttn">See More</Button></Link>
+                        <Card className="project-card">
+                            <FontAwesomeIcon className="project-icon-space" size="4x" icon={faUserAstronaut} />
+                            <Link to="/spacevisualizer"><Button className="portfolio-bttn">Space Visualizer</Button></Link>
+                        </Card>
                     </Col>
                     <Col md="4" className="projects-col">
-                        <FontAwesomeIcon className="project-icon" size="4x" icon={faBookOpen} />
-                        <Link to="/bookreview"><Button className="portfolio-bttn">See More</Button></Link>
+                        <Card className="project-card">
+                            <FontAwesomeIcon className="project-icon-book" size="4x" icon={faBookOpen} />
+                            <Link to="/bookreview"><Button className="portfolio-bttn">Book Review</Button></Link>
+                        </Card>
                     </Col>
                 </Row>
             </Container>

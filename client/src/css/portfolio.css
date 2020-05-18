@@ -20,12 +20,32 @@
   align-content: center;
 }
 
-.project-icon {
+.project-card {
+  background-color: #0C0E29 !important;
+}
+
+.project-icon-pet {
   margin-bottom: .5em;
+  margin-left: 5px;
+}
+
+.project-icon-space {
+  margin-bottom: .5em;
+  margin-left: 45px;
+}
+
+.project-icon-book {
+  margin-bottom: .5em;
+  margin-left: 20px;
 }
 
 .portfolio-bttn {
   background-color: #0C0E29 !important;
-  display: flex;
-  flex-wrap: wrap;
+  border: 1px solid white !important;
+}
+
+.portfolio-bttn:hover {
+  background-color: #A7BDDD !important;
+  border: 1px solid #A7BDDD  !important;
+  color:  #0C0E29 !important;
 }

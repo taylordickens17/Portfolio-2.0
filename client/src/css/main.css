@@ -4,6 +4,9 @@
 @import 'home.css';
 @import 'portfolio.css';
 @import 'skills.css';
+@import 'petpals.css';
+@import 'space.css';
+@import 'bookreview.css';
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&family=NTR&display=swap');
 
 html { 
