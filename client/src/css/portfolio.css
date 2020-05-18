@@ -7,7 +7,15 @@
     align-items: center !important;
 }
 
-.projects-row {
-  margin-left: auto;
-  margin-right: auto;
+.project-card {
+  background-color: #05083A !important;
+}
+
+.projects-title {
+  font-family: 'NTR', sans-serif;
+  text-transform: uppercase;
+}
+
+.projects-col {
+  margin-top: 2em;
 }

@@ -17,12 +17,12 @@ const Portfolio = () => {
     })
 
     return (
-        <div className="projects">
-            <Container data-aos="fade-up" id="projects">
-                <h1>Projects</h1>
-                <Row className="projects-row">
+        <div className="projects" id="projects">
+            <Container data-aos="fade-up">
+                <h1 className="projects-title">Projects</h1>
+                <Row>
                     <Col md="4" className="projects-col">
-                        <Card>
+                        <Card className="project-card">
                             <CardHeader>PetPals</CardHeader>
                             <CardBody>
                                 <CardTitle>Special Title Treatment</CardTitle>
@@ -31,40 +31,8 @@ const Portfolio = () => {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col md="4">
-                        <Card>
-                            <CardHeader>The Book Review</CardHeader>
-                            <CardBody>
-                                <CardTitle>Special Title Treatment</CardTitle>
-                                <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                                <Button>Go See</Button>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col md="4">
-                        <Card>
-                            <CardHeader>Studio Ghibli API</CardHeader>
-                            <CardBody>
-                                <CardTitle>Special Title Treatment</CardTitle>
-                                <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                                <Button>Go See</Button>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row className="projects-row-two">
                     <Col md="4" className="projects-col">
-                        <Card>
-                            <CardHeader>PetPals</CardHeader>
-                            <CardBody>
-                                <CardTitle>Special Title Treatment</CardTitle>
-                                <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                                <Button>Go See</Button>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col md="4">
-                        <Card>
+                        <Card className="project-card">
                             <CardHeader>The Book Review</CardHeader>
                             <CardBody>
                                 <CardTitle>Special Title Treatment</CardTitle>
@@ -73,8 +41,8 @@ const Portfolio = () => {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col md="4">
-                        <Card>
+                    <Col md="4" className="projects-col">
+                        <Card className="project-card">
                             <CardHeader>Studio Ghibli API</CardHeader>
                             <CardBody>
                                 <CardTitle>Special Title Treatment</CardTitle>
