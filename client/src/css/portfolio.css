@@ -7,10 +7,6 @@
     align-items: center !important;
 }
 
-.project-card {
-  background-color: #05083A !important;
-}
-
 .projects-title {
   font-family: 'NTR', sans-serif;
   text-transform: uppercase;
@@ -18,4 +14,18 @@
 
 .projects-col {
   margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-icon {
+  margin-bottom: .5em;
+}
+
+.portfolio-bttn {
+  background-color: #0C0E29 !important;
+  display: flex;
+  flex-wrap: wrap;
 }
