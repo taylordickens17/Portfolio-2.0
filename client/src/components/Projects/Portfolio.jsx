@@ -24,19 +24,19 @@ const Portfolio = () => {
                 <h1 className="projects-title">Projects</h1>
                 <Row className="project-row">
                     <Col md="4" className="projects-col">
-                        <Card className="project-card">
+                        <Card className="project-card-pets">
                             <FontAwesomeIcon className="project-icon-pet" size="4x" icon={faDog} />
                             <Link to="/petpals"><Button className="portfolio-bttn">PetPals</Button></Link>
                         </Card>
                     </Col>
                     <Col md="4" className="projects-col">
-                        <Card className="project-card">
+                        <Card className="project-card-space">
                             <FontAwesomeIcon className="project-icon-space" size="4x" icon={faUserAstronaut} />
                             <Link to="/spacevisualizer"><Button className="portfolio-bttn">Space Visualizer</Button></Link>
                         </Card>
                     </Col>
                     <Col md="4" className="projects-col">
-                        <Card className="project-card">
+                        <Card className="project-card-book">
                             <FontAwesomeIcon className="project-icon-book" size="4x" icon={faBookOpen} />
                             <Link to="/bookreview"><Button className="portfolio-bttn">Book Review</Button></Link>
                         </Card>

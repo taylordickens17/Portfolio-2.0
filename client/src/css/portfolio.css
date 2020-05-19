@@ -20,8 +20,25 @@
   align-content: center;
 }
 
-.project-card {
-  background-color: #0C0E29 !important;
+.project-card-space {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 20px 30px 20px;
+}
+
+.project-card-pets {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 50px 10px 50px;
+}
+
+.project-card-book {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 40px 10px 40px;
 }
 
 .project-icon-pet {
@@ -40,12 +57,12 @@
 }
 
 .portfolio-bttn {
-  background-color: #0C0E29 !important;
-  border: 1px solid white !important;
+  background-color: transparent !important;
+  border: 1px solid transparent  !important;
 }
 
 .portfolio-bttn:hover {
-  background-color: #A7BDDD !important;
-  border: 1px solid #A7BDDD  !important;
-  color:  #0C0E29 !important;
+  background-color: transparent !important;
+  border: 1px solid transparent  !important;
+  color:  #A7BDDD !important;
 }
