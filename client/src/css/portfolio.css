@@ -27,6 +27,11 @@
   padding: 0 20px 30px 20px;
 }
 
+.project-card-space:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
+}
+
 .project-card-pets {
   background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
   background-repeat: no-repeat;
@@ -34,11 +39,21 @@
   padding: 0 50px 10px 50px;
 }
 
+.project-card-pets:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
+}
+
 .project-card-book {
   background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
   background-repeat: no-repeat;
   border: none !important;
   padding: 0 40px 10px 40px;
+}
+
+.project-card-book:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
 }
 
 .project-icon-pet {

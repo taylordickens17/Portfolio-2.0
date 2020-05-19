@@ -28,10 +28,12 @@ const About = () => {
                             a few coding languages such as Python, HTML, CSS, and basic JavaScript.
                             Once realizing coding was my newfound passion, I enrolled at Eleven Fifty Academy to refine
                         my skills. I have learned a considerable amount and I'm always eager to continue learning.</p>
-                    <a href={require("../css/assets/Resume2020.pdf")} download className="resume-bttn">Resume &nbsp; &nbsp;<FontAwesomeIcon icon={faLongArrowAltRight} size='1x' /></a>
+                    <a href={require("../css/assets/Resume2020.pdf")} download className="resume-bttn">Resume <FontAwesomeIcon icon={faLongArrowAltRight} className="arrow" size='1x' /></a>
                 </Col>
                 <Col md="5">
-                    <img src={require("../css/assets/TaylorDickens1.jpg")} alt="Taylor Dickens" className="about-pic" />
+                    <div>
+                        <img src={require("../css/assets/TaylorDickens1.jpg")} alt="Taylor Dickens" className="about-pic" />
+                    </div>
                 </Col>
             </Row>
         </Container>

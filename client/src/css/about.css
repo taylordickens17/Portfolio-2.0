@@ -19,6 +19,7 @@
     margin-left: 5em;
     height: 450px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .resume-bttn {
@@ -28,4 +29,14 @@
 .resume-bttn:hover {
     color: #A7BDDD;
     text-decoration: none;
+}
+
+.arrow{
+    margin-left: 10px;
+}
+
+.arrow:hover{
+    position: relative;
+    transform: translateX(50%);
+    transition: 0.5s ease-in;
 }
