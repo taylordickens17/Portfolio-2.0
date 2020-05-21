@@ -1,0 +1,11 @@
+.space-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-title {
+    font-family: 'NTR', sans-serif;
+    text-transform: uppercase;
+}
