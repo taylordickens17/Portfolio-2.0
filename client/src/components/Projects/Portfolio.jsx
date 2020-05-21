@@ -22,7 +22,7 @@ const Portfolio = () => {
         <div className="projects" id="projects">
             <Container data-aos="fade-up">
                 <h1 className="projects-title">Projects</h1>
-                <Row className="project-row">
+                <Row>
                     <Col md="4" className="projects-col">
                         <Card className="project-card-pets">
                             <FontAwesomeIcon className="project-icon-pet" size="4x" icon={faDog} />
