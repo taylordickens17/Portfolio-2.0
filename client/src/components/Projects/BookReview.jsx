@@ -44,6 +44,7 @@ const BookReview = () => {
         setActiveIndex(newIndex);
     }
 
+
     const slides = items.map((item) => {
         return (
             <CarouselItem
