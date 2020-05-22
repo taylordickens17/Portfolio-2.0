@@ -30,8 +30,8 @@ const Home = () => {
                                 <div className="home-landing-title">
                                     <h1 className="home-title"><span className="first-name">Taylor</span> Dickens</h1>
                                     <br />
-                                    <a href="#about" className="home-linkedIn-bttn"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
-                                    <a href="#about" className="home-gitHub-bttn"><FontAwesomeIcon icon={faGithubSquare} size='2x' /></a>
+                                    <a href="https://www.linkedin.com/in/justintaylordickens/" className="home-linkedIn-bttn"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
+                                    <a href="https://github.com/taylordickens17" className="home-gitHub-bttn"><FontAwesomeIcon icon={faGithubSquare} size='2x' /></a>
                                     <a href="mailto:justindickens17@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="home-email-bttn" size="2x" icon={faEnvelopeSquare} /></a>
                                 </div>
                             </Col>

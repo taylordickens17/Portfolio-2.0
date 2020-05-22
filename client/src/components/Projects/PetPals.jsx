@@ -6,6 +6,8 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 const items = [
     {
@@ -64,7 +66,9 @@ const PetPals = () => {
             <Row className="project-row">
                 <Col md="10">
                     <h1 className="petpals-title">Pet Pals</h1>
-                    <p>Oat cake powder candy canes sweet roll gingerbread toffee soufflé. Jelly beans donut muffin sweet roll tiramisu. Chocolate bar gummi bears tootsie roll jelly gingerbread. Gummies powder marshmallow oat cake. Gingerbread chocolate cake sweet marzipan lollipop tart danish. Liquorice danish cupcake jelly beans cotton candy wafer jujubes. Biscuit pie chocolate sweet roll apple pie. Chocolate bar cheesecake candy icing. Candy lollipop bonbon cupcake gummi bears apple pie dessert. Pastry gingerbread jujubes croissant wafer. Donut carrot cake marzipan oat cake carrot cake donut oat cake. Chocolate gummi bears croissant marzipan lemon drops chocolate. Sugar plum gummies sweet tiramisu carrot cake pastry cotton candy.</p></Col>
+                    <p>Oat cake powder candy canes sweet roll gingerbread toffee soufflé. Jelly beans donut muffin sweet roll tiramisu. Chocolate bar gummi bears tootsie roll jelly gingerbread. Gummies powder marshmallow oat cake. Gingerbread chocolate cake sweet marzipan lollipop tart danish. Liquorice danish cupcake jelly beans cotton candy wafer jujubes. Biscuit pie chocolate sweet roll apple pie. Chocolate bar cheesecake candy icing. Candy lollipop bonbon cupcake gummi bears apple pie dessert. Pastry gingerbread jujubes croissant wafer. Donut carrot cake marzipan oat cake carrot cake donut oat cake. Chocolate gummi bears croissant marzipan lemon drops chocolate. Sugar plum gummies sweet tiramisu carrot cake pastry cotton candy.</p>
+                    <a href="https://tat-petpals-client.herokuapp.com/" className="see-live-bttn">See Live<FontAwesomeIcon className="arrow" icon={faLongArrowAltRight} size='1x' /></a>
+                </Col>
             </Row>
             <Row>
                 <Col>

@@ -92,3 +92,12 @@
 .carousel {
   margin-left: 8em;
 }
+
+.see-live-bttn {
+  color: white;
+}
+
+.see-live-bttn:hover {
+  color: #A7BDDD;
+  text-decoration: none;
+}
