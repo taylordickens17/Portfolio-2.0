@@ -1,4 +1,13 @@
 .skills {
     height: 100vh;
-    background-color: #05083A;
+    margin: 0 !important;
+    background-color: #0C0E29;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.skills-title {
+  font-family: 'NTR', sans-serif;
+  text-transform: uppercase;
 }

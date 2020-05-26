@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Card, Container, Button, Row, Col } from 'reactstrap';
 
 //Icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDog, faBookOpen, faUserAstronaut } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDog, faBookOpen, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 
 // Animation
 import AOS from 'aos';

@@ -1,18 +1,19 @@
 import React from 'react';
-import {
-    Container, Row, Col
-} from 'reactstrap';
+import { Card, Container, Button, Row, Col } from 'reactstrap';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faNodeJs, faReact, faDocker, faFigma, faAdobe } from '@fortawesome/free-brands-svg-icons';
+import { faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     return (
-        <Container id="skills" className="skills">
-            <h1>Skills</h1>
-            <Row>
-                <Col>
-                    <hr style={{ width: '80%' }} />
-                </Col>
-            </Row>
-        </Container>
+        <div className="skills" id="skills">
+            <Container>
+                <h1 className="skills-title">Skills</h1>
+                <Row>
+                </Row>
+            </Container>
+        </div>
     )
 }
 
