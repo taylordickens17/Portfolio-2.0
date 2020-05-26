@@ -15,15 +15,9 @@
     border-right: 2px solid white;
 }
 
-.about-pic {
-    margin-left: 5em;
-    height: 450px;
-    width: 300px;
-    border-radius: 10px;
-}
 
 .resume-bttn {
-  color: white;
+    color: white;
 }
 
 .resume-bttn:hover {
@@ -40,3 +34,40 @@
     transform: translateX(50%);
     transition: 0.5s ease-in;
 }
+
+.about-pic {
+    margin-left: 5em;
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about-overlay {
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #A7BDDD;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
+.overlay-container:hover .about-overlay {
+    width: 80%;
+  }
+
+  .about-overlay-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    white-space: nowrap;
+  }
