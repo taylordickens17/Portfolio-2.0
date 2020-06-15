@@ -19,3 +19,12 @@
     justify-content: center;
     align-content: center;
 }
+
+.skill-link {
+  color: white;
+}
+
+.skill-link:hover {
+  color: #A7BDDD;
+  text-decoration: none;
+}
