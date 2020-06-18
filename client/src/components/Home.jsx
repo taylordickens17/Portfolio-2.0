@@ -41,7 +41,7 @@ const Home = () => {
                                     <h1 className="greeter">Hello There, Friend!</h1>
                                     <p className="greeter-paragraph">I'm a junior developer with a graphic design background. I've recently begun my journey in coding. I love continuing to learn in this ever-growing technilogical world.</p>
                                     <br />
-                                    <a href="#about" className="greeter-bttn">Get to know me &nbsp;	&nbsp;<FontAwesomeIcon icon={faLongArrowAltRight} size='1x' /></a>
+                                    <a href="#about" className="greeter-bttn">Get to know me <FontAwesomeIcon icon={faLongArrowAltRight} size='1x' className="arrow" /></a>
                                 </div>
                             </Col>
                         </Row>

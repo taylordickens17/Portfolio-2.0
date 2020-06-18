@@ -21,10 +21,25 @@
 }
 
 .skill-link {
+  display: flex !important;
+  justify-content: center !important;
   color: white;
+  padding-top: 10px;
 }
 
 .skill-link:hover {
   color: #A7BDDD;
   text-decoration: none;
+}
+
+.skills-card {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 50px 30px 50px;
+}
+
+.skills-card:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
 }
